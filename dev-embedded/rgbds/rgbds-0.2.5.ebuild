@@ -18,3 +18,5 @@ DEPEND="
 	dev-util/byacc
 	media-libs/libpng"
 RDEPEND="${DEPEND}"
+
+PATCHES="${FILESDIR}/${P}-destdir.patch"
