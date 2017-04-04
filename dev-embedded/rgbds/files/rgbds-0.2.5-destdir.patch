@@ -1,0 +1,13 @@
+diff --git a/Makefile b/Makefile
+index 5f3be4a..4361bc8 100644
+--- a/Makefile
++++ b/Makefile
+@@ -5,7 +5,7 @@ REALCFLAGS =	${CFLAGS} ${WARNFLAGS} ${PNGFLAGS} -Iinclude -g \
+ 		-std=c99 -D_POSIX_C_SOURCE=200809L
+ 
+ # User-defined variables
+-PREFIX =	/usr/local
++PREFIX =	${DESTDIR}/usr/local
+ BINPREFIX =	${PREFIX}/bin
+ MANPREFIX =	${PREFIX}/man
+ Q =		@
