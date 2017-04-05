@@ -6,6 +6,7 @@ EAPI=6
 DESCRIPTION="Rednex GameBoy Development System"
 HOMEPAGE="https://github.com/rednex/rgbds"
 SRC_URI="https://github.com/rednex/rgbds/archive/v${PV}.zip"
+RESTRICT="mirror"
 
 LICENSE=""
 SLOT="0"
