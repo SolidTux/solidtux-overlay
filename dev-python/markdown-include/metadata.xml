@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>jauhien@gentoo.org</email>
+		<name>Jauhien Piatlicki</name>
+	</maintainer>
+	<longdescription>This is an extension to Python-Markdown which provides an include function, similar to that found in LaTeX (and also the C pre-processor and Fortran). I originally wrote it for my FORD Fortran auto-documentation generator.</longdescription>
+</pkgmetadata>
