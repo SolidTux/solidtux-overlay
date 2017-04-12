@@ -19,4 +19,6 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPENDS="dev-python/markdown"
+DEPEND="dev-python/markdown"
+
+RDEPEND="${DEPEND}"

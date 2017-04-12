@@ -19,7 +19,7 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPENDS="
+DEPEND="
 	dev-python/pygraphviz
 	>=dev-python/jinja-2.0
 	dev-python/pygments
@@ -27,3 +27,5 @@ DEPENDS="
 	>=dev-python/beautifulsoup-4.0
 	media-gfx/graphviz
 "
+
+RDEPEND="${DEPEND}"
