@@ -24,6 +24,7 @@ DEPEND="
 	>=dev-python/jinja-2.0
 	dev-python/pygments
 	dev-python/markdown
+	dev-python/markdown-include
 	dev-python/toposort
 	>=dev-python/beautifulsoup-4.0
 	media-gfx/graphviz
