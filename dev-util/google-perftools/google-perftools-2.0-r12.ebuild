@@ -21,7 +21,7 @@ SLOT="0/4"
 KEYWORDS="-* amd64 arm ppc ppc64 x86 ~x86-fbsd ~amd64-linux ~x86-linux"
 IUSE="largepages +debug minimal test static-libs"
 
-DEPEND="|| (sys-libs/libunwind sys-libs/llvm-libunwind)"
+DEPEND="|| ( sys-libs/libunwind sys-libs/llvm-libunwind )"
 RDEPEND="${DEPEND}"
 
 S="${WORKDIR}/${MY_P}"
